@@ -13,7 +13,7 @@ namespace DataLayer.ConnectionDB
 
         public SqlDataAccess()
         {
-            _connectionString = "Data Source=U20210444;Initial Catalog=CarHubDB;Integrated Security=True;Trust Server Certificate=True";
+            _connectionString = //Aqui va la cadena conexion ;
         }
 
         public SqlConnection GetConnection()
